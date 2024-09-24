@@ -22,4 +22,11 @@ int main()
             v[i] = to_string(number);
         }
     }
+
+    for(auto i : v)
+    {
+        cout<<i<<' ';
+    }
+    cout<<'\n';
+
 }
