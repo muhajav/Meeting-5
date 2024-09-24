@@ -23,5 +23,10 @@ int main()
         //push_back() is use to push an element to a vector. The new element is located
         //after the last current index
     }
+
+    for(auto i : ans)
+    {
+        cout<<i<<' ';
+    }
     
 }
